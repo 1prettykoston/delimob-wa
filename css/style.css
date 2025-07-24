@@ -6,6 +6,8 @@ html {
   font-size: 1.45vw;
 }
 
+
+
 *,
 *::before,
 *::after {
@@ -281,6 +283,13 @@ body {
   margin: -1.5rem auto 0 auto;
   z-index: 10;
 }
+
+@media screen and (max-width: 720px) and (max-aspect-ratio: 10/6) and (max-height: 1100px) {
+  html {
+    font-size: .75vh;
+  }
+}
+
 
 /**
  * Swiper 11.2.8
